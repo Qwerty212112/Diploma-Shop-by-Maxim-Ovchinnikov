@@ -1,0 +1,708 @@
+{
+  "users": [
+    {
+      "id": "001",
+      "login": "anton",
+      "password": "qwerty123",
+      "registed_at": "2050-09-22 06:06",
+      "role_id": 0,
+      "favorite_products": [
+        "004"
+      ],
+      "cart_products": []
+    },
+    {
+      "id": "002",
+      "login": "anton1",
+      "password": "qwerty123",
+      "registed_at": "2050-09-22 06:06",
+      "role_id": 2
+    }
+  ],
+  "roles": [
+    {
+      "id": 0,
+      "name": "Admin"
+    },
+    {
+      "id": 1,
+      "name": "Moderator"
+    },
+    {
+      "id": 2,
+      "name": "Buyer"
+    },
+    {
+      "id": 3,
+      "name": "Guest"
+    }
+  ],
+  "products": [
+    {
+      "id": "001",
+      "title": "Джинсы Classic Fit",
+      "image_url": "https://stockmann.ru/upload/product/576/5678576/5678576-01.jpg",
+      "gender": "Мужской",
+      "content": {
+        "articul": "M-0001",
+        "composition": "98% хлопок, 2% эластан",
+        "style": "Повседневный",
+        "zipper": "молния",
+        "pattern": "однотонный",
+        "cut": "прямой",
+        "boarding": "стандартная"
+      },
+      "sizes": [
+        "46",
+        "48",
+        "50",
+        "52",
+        "54"
+      ],
+      "price": 6999,
+      "published_at": "2026-02-18"
+    },
+    {
+      "id": "002",
+      "title": "Брюки Chino",
+      "image_url": "https://stockmann.ru/upload/product/68/5645068/5645068-01.jpg",
+      "gender": "Мужской",
+      "content": {
+        "articul": "M-0002",
+        "composition": "97% хлопок, 3% эластан",
+        "style": "Кэжуал",
+        "zipper": "молния",
+        "pattern": "однотонный",
+        "cut": "зауженный",
+        "boarding": "средняя"
+      },
+      "sizes": [
+        "46",
+        "48",
+        "50",
+        "52",
+        "54"
+      ],
+      "price": 4590,
+      "published_at": "2026-02-18"
+    },
+    {
+      "id": "003",
+      "title": "Футболка Basic",
+      "image_url": "https://stockmann.ru/upload/product/260/5584260/5584260-21.jpg",
+      "gender": "Мужской",
+      "content": {
+        "articul": "M-0003",
+        "composition": "100% хлопок",
+        "style": "Базовый",
+        "zipper": "без застежки",
+        "pattern": "однотонный",
+        "cut": "прямой",
+        "boarding": "стандартная"
+      },
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL",
+        "XXL"
+      ],
+      "price": 1990,
+      "published_at": "2026-02-18"
+    },
+    {
+      "id": "004",
+      "title": "Рубашка Oxford",
+      "image_url": "https://stockmann.ru/upload/product/278/5584278/5584278-24.jpg",
+      "gender": "Мужской",
+      "content": {
+        "articul": "M-0004",
+        "composition": "100% хлопок",
+        "style": "Классический",
+        "zipper": "пуговицы",
+        "pattern": "мелкая клетка",
+        "cut": "прямой",
+        "boarding": "стандартная"
+      },
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL",
+        "XXL"
+      ],
+      "price": 3890,
+      "published_at": "2026-02-18"
+    },
+    {
+      "id": "005",
+      "title": "Свитшот Urban",
+      "image_url": "https://stockmann.ru/upload/product/781/5469781/5469781-01.jpg",
+      "gender": "Мужской",
+      "content": {
+        "articul": "M-0005",
+        "composition": "80% хлопок, 20% полиэстер",
+        "style": "Спортивный",
+        "zipper": "без застежки",
+        "pattern": "однотонный",
+        "cut": "свободный",
+        "boarding": "стандартная"
+      },
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL",
+        "XXL"
+      ],
+      "price": 4290,
+      "published_at": "2026-02-18"
+    },
+    {
+      "id": "006",
+      "title": "Свитшот Minimal",
+      "image_url": "https://stockmann.ru/upload/product/37/5561037/5561037-03.jpg",
+      "gender": "Мужской",
+      "content": {
+        "articul": "M-0006",
+        "composition": "100% хлопок",
+        "style": "Кэжуал",
+        "zipper": "без застежки",
+        "pattern": "однотонный",
+        "cut": "прямой",
+        "boarding": "стандартная"
+      },
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL",
+        "XXL"
+      ],
+      "price": 3190,
+      "published_at": "2026-02-18"
+    },
+    {
+      "id": "021",
+      "title": "Джинсы High Rise",
+      "image_url": "https://stockmann.ru/upload/product/646/5645646/5645646-03.jpg",
+      "gender": "Женский",
+      "content": {
+        "articul": "F-0001",
+        "composition": "98% хлопок, 2% эластан",
+        "style": "Повседневный",
+        "zipper": "молния",
+        "pattern": "однотонный",
+        "cut": "зауженный",
+        "boarding": "высокая"
+      },
+      "sizes": [
+        "40",
+        "42",
+        "44",
+        "46",
+        "48"
+      ],
+      "price": 4990,
+      "published_at": "2026-02-18"
+    },
+    {
+      "id": "022",
+      "title": "Брюки Palazzo",
+      "image_url": "https://stockmann.ru/upload/product/690/5582690/5582690-01.jpg",
+      "gender": "Женский",
+      "content": {
+        "articul": "F-0002",
+        "composition": "70% вискоза, 30% полиэстер",
+        "style": "Классический",
+        "zipper": "молния",
+        "pattern": "однотонный",
+        "cut": "свободный",
+        "boarding": "высокая"
+      },
+      "sizes": [
+        "40",
+        "42",
+        "44",
+        "46",
+        "48"
+      ],
+      "price": 4390,
+      "published_at": "2026-02-18"
+    },
+    {
+      "id": "023",
+      "title": "Футболка Soft Touch",
+      "image_url": "https://stockmann.ru/upload/product/621/5524621/5524621-03.jpg",
+      "gender": "Женский",
+      "content": {
+        "articul": "F-0003",
+        "composition": "95% хлопок, 5% эластан",
+        "style": "Базовый",
+        "zipper": "без застежки",
+        "pattern": "однотонный",
+        "cut": "прямой",
+        "boarding": "стандартная"
+      },
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "price": 1990,
+      "published_at": "2026-02-18"
+    },
+    {
+      "id": "024",
+      "title": "Блуза Elegant",
+      "image_url": "https://stockmann.ru/upload/product/601/5659601/5659601-21.jpg",
+      "gender": "Женский",
+      "content": {
+        "articul": "F-0004",
+        "composition": "100% вискоза",
+        "style": "Классический",
+        "zipper": "пуговицы",
+        "pattern": "однотонный",
+        "cut": "свободный",
+        "boarding": "стандартная"
+      },
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "price": 3590,
+      "published_at": "2026-02-18"
+    },
+    {
+      "id": "025",
+      "title": "Худи Cozy",
+      "image_url": "https://stockmann.ru/upload/product/642/5583642/5583642-21.jpg",
+      "gender": "Женский",
+      "content": {
+        "articul": "F-0005",
+        "composition": "80% хлопок, 20% полиэстер",
+        "style": "Спортивный",
+        "zipper": "без застежки",
+        "pattern": "однотонный",
+        "cut": "оверсайз",
+        "boarding": "стандартная"
+      },
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "price": 4190,
+      "published_at": "2026-02-18"
+    },
+    {
+      "id": "026",
+      "title": "Свитшот Weekend",
+      "image_url": "https://stockmann.ru/upload/product/179/5486179/5486179-21.jpg",
+      "gender": "Женский",
+      "content": {
+        "articul": "F-0006",
+        "composition": "100% хлопок",
+        "style": "Кэжуал",
+        "zipper": "без застежки",
+        "pattern": "однотонный",
+        "cut": "свободный",
+        "boarding": "стандартная"
+      },
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "price": 3290,
+      "published_at": "2026-02-18"
+    },
+    {
+      "id": "041",
+      "title": "Джинсы Kids Denim",
+      "image_url": "https://stockmann.ru/upload/product/153/5625153/5625153-01.jpg",
+      "gender": "Детский",
+      "content": {
+        "articul": "K-0001",
+        "composition": "98% хлопок, 2% эластан",
+        "style": "Повседневный",
+        "zipper": "молния",
+        "pattern": "однотонный",
+        "cut": "прямой",
+        "boarding": "средняя"
+      },
+      "sizes": [
+        "98",
+        "104",
+        "110",
+        "116",
+        "122"
+      ],
+      "price": 2590,
+      "published_at": "2026-02-18"
+    },
+    {
+      "id": "042",
+      "title": "Джинсы School Basic",
+      "image_url": "https://stockmann.ru/upload/product/200/5626200/5626200-01.jpg",
+      "gender": "Детский",
+      "content": {
+        "articul": "K-0002",
+        "composition": "65% полиэстер, 35% вискоза",
+        "style": "Школьный",
+        "zipper": "молния",
+        "pattern": "однотонный",
+        "cut": "прямой",
+        "boarding": "средняя"
+      },
+      "sizes": [
+        "98",
+        "104",
+        "110",
+        "116",
+        "122"
+      ],
+      "price": 2390,
+      "published_at": "2026-02-18"
+    },
+    {
+      "id": "043",
+      "title": "Футболка Kids Color",
+      "image_url": "https://stockmann.ru/upload/product/756/5623756/5623756-21.jpg",
+      "gender": "Детский",
+      "content": {
+        "articul": "K-0003",
+        "composition": "100% хлопок",
+        "style": "Базовый",
+        "zipper": "без застежки",
+        "pattern": "принт",
+        "cut": "прямой",
+        "boarding": "стандартная"
+      },
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "price": 1490,
+      "published_at": "2026-02-18"
+    },
+    {
+      "id": "044",
+      "title": "Рубашка Junior Oxford",
+      "image_url": "https://stockmann.ru/upload/product/353/4206353/4206353-006.jpg",
+      "gender": "Детский",
+      "content": {
+        "articul": "K-0004",
+        "composition": "100% хлопок",
+        "style": "Классический",
+        "zipper": "пуговицы",
+        "pattern": "клетка",
+        "cut": "прямой",
+        "boarding": "стандартная"
+      },
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "price": 2090,
+      "published_at": "2026-02-18"
+    },
+    {
+      "id": "045",
+      "title": "Худи Kids Play",
+      "image_url": "https://stockmann.ru/upload/product/831/5631831/5631831-21.jpg",
+      "gender": "Детский",
+      "content": {
+        "articul": "K-0005",
+        "composition": "80% хлопок, 20% полиэстер",
+        "style": "Спортивный",
+        "zipper": "без застежки",
+        "pattern": "принт",
+        "cut": "свободный",
+        "boarding": "стандартная"
+      },
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "price": 2690,
+      "published_at": "2026-02-18"
+    },
+    {
+      "id": "046",
+      "title": "Свитшот Junior Soft",
+      "image_url": "https://stockmann.ru/upload/product/301/5674301/5674301-21.jpg",
+      "gender": "Детский",
+      "content": {
+        "articul": "K-0006",
+        "composition": "100% хлопок",
+        "style": "Повседневный",
+        "zipper": "без застежки",
+        "pattern": "однотонный",
+        "cut": "прямой",
+        "boarding": "стандартная"
+      },
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "price": 2390,
+      "published_at": "2026-02-18"
+    },
+    {
+      "id": "061",
+      "title": "Плед Soft Home",
+      "image_url": "https://stockmann.ru/upload/product/564/5694564/5694564-001.jpg",
+      "gender": "Для дома",
+      "content": {
+        "articul": "H-0001",
+        "composition": "100% полиэстер",
+        "style": "Текстиль",
+        "zipper": "без застежки",
+        "pattern": "однотонный",
+        "cut": "прямой",
+        "boarding": "нет"
+      },
+      "sizes": [
+        "150x200",
+        "180x220"
+      ],
+      "price": 2590,
+      "published_at": "2026-02-18"
+    },
+    {
+      "id": "062",
+      "title": "Халат Cotton Comfort",
+      "image_url": "https://stockmann.ru/upload/product/603/5635603/5635603-24.jpg",
+      "gender": "Для дома",
+      "content": {
+        "articul": "H-0002",
+        "composition": "100% хлопок",
+        "style": "Домашний",
+        "zipper": "пояс",
+        "pattern": "однотонный",
+        "cut": "прямой",
+        "boarding": "свободная"
+      },
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "price": 3290,
+      "published_at": "2026-02-18"
+    },
+    {
+      "id": "063",
+      "title": "Пижама Cozy Night",
+      "image_url": "https://stockmann.ru/upload/product/9/5587009/5587009-01.jpg",
+      "gender": "Для дома",
+      "content": {
+        "articul": "H-0003",
+        "composition": "95% хлопок, 5% эластан",
+        "style": "Домашний",
+        "zipper": "без застежки",
+        "pattern": "принт",
+        "cut": "свободный",
+        "boarding": "стандартная"
+      },
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "price": 2890,
+      "published_at": "2026-02-18"
+    },
+    {
+      "id": "064",
+      "title": "Футболка Home Basic",
+      "image_url": "https://stockmann.ru/upload/product/508/5642508/5642508-21.jpg",
+      "gender": "Для дома",
+      "content": {
+        "articul": "H-0004",
+        "composition": "100% хлопок",
+        "style": "Домашний",
+        "zipper": "без застежки",
+        "pattern": "однотонный",
+        "cut": "прямой",
+        "boarding": "стандартная"
+      },
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "price": 1490,
+      "published_at": "2026-02-18"
+    },
+    {
+      "id": "065",
+      "title": "Штаны Home Relax",
+      "image_url": "https://stockmann.ru/upload/product/387/5634387/5634387-21.jpg",
+      "gender": "Для дома",
+      "content": {
+        "articul": "H-0005",
+        "composition": "95% хлопок, 5% эластан",
+        "style": "Домашний",
+        "zipper": "резинка",
+        "pattern": "однотонный",
+        "cut": "свободный",
+        "boarding": "средняя"
+      },
+      "sizes": [
+        "44",
+        "46",
+        "48",
+        "50",
+        "52"
+      ],
+      "price": 2190,
+      "published_at": "2026-02-18"
+    },
+    {
+      "id": "066",
+      "title": "Толстовка Home Zip",
+      "image_url": "https://stockmann.ru/upload/product/387/5634387/5634387-21.jpg",
+      "gender": "Для дома",
+      "content": {
+        "articul": "H-0006",
+        "composition": "80% хлопок, 20% полиэстер",
+        "style": "Домашний",
+        "zipper": "молния",
+        "pattern": "однотонный",
+        "cut": "свободный",
+        "boarding": "стандартная"
+      },
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "price": 2790,
+      "published_at": "2026-02-18"
+    }
+  ],
+  "comments": [
+    {
+      "author_id": "001",
+      "product_id": "001",
+      "published_at": "2614-06-02 07:51",
+      "content": "Отлиячные штаны",
+      "rating": 5,
+      "id": 1
+    },
+    {
+      "author_id": "001",
+      "product_id": "004",
+      "published_at": "2614-06-14 09:31",
+      "content": "feefef",
+      "rating": 5,
+      "id": 2
+    },
+    {
+      "author_id": "001",
+      "product_id": "004",
+      "published_at": "2634-11-09 10:49",
+      "content": "",
+      "rating": 2,
+      "id": 3
+    }
+  ],
+  "sessions": [
+    {
+      "hash": "0.84648993855681653464273495046654716134071350097656",
+      "user": {
+        "id": "001",
+        "login": "anton",
+        "password": "qwerty123",
+        "registeredAt": "2050-09-22 06:06",
+        "roleId": 0,
+        "favoriteProducts": [
+          "001",
+          "002"
+        ],
+        "cartProducts": []
+      },
+      "id": 1
+    },
+    {
+      "hash": "0.68692813258615870175560758070787414908409118652344",
+      "user": {
+        "id": "001",
+        "login": "anton",
+        "password": "qwerty123",
+        "registeredAt": "2050-09-22 06:06",
+        "roleId": 0,
+        "favoriteProducts": [
+          "002",
+          "001",
+          "006"
+        ],
+        "cartProducts": [
+          {
+            "productId": "001",
+            "size": "50"
+          }
+        ]
+      },
+      "id": 2
+    },
+    {
+      "hash": "0.50575681545701489660871175146894529461860656738281",
+      "user": {
+        "id": "001",
+        "login": "anton",
+        "password": "qwerty123",
+        "registeredAt": "2050-09-22 06:06",
+        "roleId": 0,
+        "favoriteProducts": [
+          "004"
+        ],
+        "cartProducts": [
+          {
+            "productId": "004",
+            "size": "S"
+          }
+        ]
+      },
+      "id": 3
+    },
+    {
+      "hash": "0.87266465232162648835156915083643980324268341064453",
+      "user": {
+        "id": "001",
+        "login": "anton",
+        "password": "qwerty123",
+        "registeredAt": "2050-09-22 06:06",
+        "roleId": 0,
+        "favoriteProducts": [
+          "004"
+        ],
+        "cartProducts": []
+      },
+      "id": 4
+    }
+  ]
+}
